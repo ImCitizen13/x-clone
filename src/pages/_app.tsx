@@ -13,7 +13,7 @@ const MyApp: AppType<{ session: Session | null }> = ({
       <Component {...pageProps} />
     </SessionProvider>
   );
-};
+}; 
 
 export default api.withTRPC(MyApp);
    
